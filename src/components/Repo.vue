@@ -83,6 +83,7 @@ export default {
         JavaScript:'javascript',
         HTML: 'html',
         CSS: 'css',
+        Vue:'vue',
       }
     };
   },
