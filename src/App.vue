@@ -7,6 +7,7 @@
     <div class="cardOne">
 
       <div class="avatarDetails">
+        
         <div class="avatarImg">
           <img :src="info.avatar_url" alt="profile pics" class="avatar" />
         </div>
@@ -87,7 +88,7 @@
                 </div>
 
 
-                <hr>
+                <hr class="hideHr">
 
                 <div class="highlights">
 
