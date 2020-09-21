@@ -130,7 +130,7 @@ svg{
     -o-border-radius: 5px;
     margin-right: 1rem;
     outline: none;
-    border: 1px solid #d1d5da
+    border: 1px solid #d1d5da;
 
 }
  
@@ -317,22 +317,45 @@ span{
         flex-direction: column;
         margin: 0.5rem;
     }
-    /* .find input {
-        margin-bottom: 0.5rem;
-        width: 90%;
-        background-color: purple;
-    } */
+   
+  
+
     #select {
         padding: 0.5rem 0.5rem;
+        border-radius: 6px;
+        outline: none;
+        background-color: #fff;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        border: 1px solid #d1d5da
+    }
+    
+    .new {
+        background-color: #2ea44f;
+        color: white;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
+        outline: none;
+        padding: 7px ;
+        border: none;
+    
     }
     .findInput {
         width: 83vw;
         margin-bottom: 1rem;
+        border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: 1rem;
+    outline: none;
+    border: 1px solid #d1d5da;
    
         
     }
