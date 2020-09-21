@@ -88,6 +88,7 @@ svg{
 
 .header {
     padding: 1rem 0rem;
+   
 }
 
 .headerIcon a {
@@ -247,11 +248,6 @@ h2{
 
 }
 
-
-
-
-
-
 small{
     padding: 2px 4px;
     text-align: center;
@@ -281,30 +277,35 @@ span{
         width: 100%;
     }
     .avatar {
-        align-content: center;
-        text-align: center;
-        width: 65%;
-        height: 17%;
-        margin-top: -1rem;
+       
+        width: 25%;
+        height: 20%;
+       margin-right: 1rem;
+     
+     
+    }
+
+    .avatarDetails{
+        display: flex;
+
      
     }
     
-    /* .avatarName {
-        /* display: flex; */
-    /* } */
-    .avatarName .name {
-        padding-left: 8px
+   .avatarName {
+      margin-top: -1rem;
+    } 
+
+    .avatarName p{
+        margin-top: -1rem;
     }
-    .avatarName .username {
-        margin-top: -0.5rem;
-        padding-left: 10px
-    }
+
     .location, .userName, .highlights, .organisation {
         display: none;
     }
-    /* .header { */
-        /* width: 100%; */
-    /* } */
+     .header { 
+
+        font-size: small;
+     }
     .headerIcon a {
         padding-right: 6px
     }
@@ -316,10 +317,11 @@ span{
         flex-direction: column;
         margin: 0.5rem;
     }
-    .find input {
+    /* .find input {
         margin-bottom: 0.5rem;
         width: 90%;
-    }
+        background-color: purple;
+    } */
     #select {
         padding: 0.5rem 0.5rem;
         border-radius: 5px;
@@ -329,9 +331,17 @@ span{
         -o-border-radius: 5px;
     }
     .findInput {
-        /* width: 100%; */
-        margin-bottom: 1rem
+        width: 83vw;
+        margin-bottom: 1rem;
+   
+        
     }
+    .selectInput{
+    
+        margin-top: 5px;
+        margin-bottom: 5px
+    }
+
     h2 {
         font-size: 0.8rem;
         margin-top: 1.5rem;

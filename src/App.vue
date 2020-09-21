@@ -7,11 +7,10 @@
     <div class="cardOne">
 
       <div class="avatarDetails">
-        
-        <div class="avatarImg">
-          <img :src="info.avatar_url" alt="profile pics" class="avatar" />
-        </div>
 
+     
+          <img :src="info.avatar_url" alt="profile pics" class="avatar" />
+    
         <div class="avatarName">
           <h3>{{ info.name }}</h3>
           <p>{{ info.login }}</p>
