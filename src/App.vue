@@ -12,7 +12,7 @@
           <img :src="info.avatar_url" alt="profile pics" class="avatar" />
     
         <div class="avatarName">
-          <h3>{{ info.name }}</h3>
+          <h1>{{ info.name }}</h1>
           <p>{{ info.login }}</p>
         </div>
       </div>
@@ -38,13 +38,15 @@
                 fill-rule="evenodd"
                 d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
             </svg>
-            <span> {{ info.followers }} followers .</span>
+            <span class="follow"> {{ info.followers }} </span>
+            followers .
           </a>
         </span>
 
         <span>
           <a href="https://github.com/amycruz97?tab=following">
-            <span> {{ info.following }} following .</span>
+            <span class="follow"> {{ info.following }}  </span>
+            following .
           </a>
         </span>
 
@@ -64,7 +66,7 @@
                 d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"
               ></path>
             </svg>
-            <span>64</span>
+            <span class="follow">64</span>
           </a>
         </span>
       </div>
@@ -91,7 +93,7 @@
 
                 <div class="highlights">
 
-                    <h4>Highlights</h4>
+                    <h2>Highlights</h2>
                     <svg class="octicon octicon-north-star text-gray-light mr-1" viewBox="0 0 16 16" version="1.1"
                         width="16" height="16" aria-hidden="true">
                         <path
@@ -105,7 +107,7 @@
 
 
                 <div class="organisation">
-                    <h4>Organisation</h4>
+                    <h2>Organisation</h2>
                     <img src="https://avatars2.githubusercontent.com/u/8825476?s=60&v=4" alt="organisation">
                 </div>
 
@@ -125,7 +127,7 @@
 
                     <div class="headerContent">
                         <span class="headerIcon">
-                            <a href="https://github.com/amycruz97">
+                            <a href="https://github.com/amycruz97" >
                                 <svg class="headerIcons octicon octicon-book UnderlineNav-octicon hide-sm" height="16"
                                     viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
                                     <path fill-rule="evenodd"
@@ -144,7 +146,7 @@
                                 </path>
                             </svg>
                             <a href="https://github.com/amycruz97?tab=repositories">
-                                <span class="repository">Respositories
+                                <span class="">Respositories
                                     <span class="repoNum"> {{repo.length}} </span>
                                 </span>
                             </a>
@@ -185,7 +187,7 @@
            <div class="find">
 
                     <div class="findinput">
-                        <input class="text findInput" placeholder="find a repository">
+                        <input class="text findInput" placeholder="Find a repository">
                     </div>
 
                     <div class="selectInput">
